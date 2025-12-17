@@ -20,7 +20,7 @@ function App() {
       <Salutacio nom="Maria" edat="35" />
       <Comptador valorInicial={1}/>
       <ComptadorTemps />
-     <ComptadorVisites />
+      <ComptadorVisites />
       <ComptadorVisites2 />
     </div>
   )

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function ComptadorTemps() {
   const [segons, setSegons] = useState(0); // temps inicial en segons
-  const [actiu, setActiu] = useState(true); // controlar si el comptador està actiu
+  const [actiu, setActiu] = useState(false); // controlar si el comptador està actiu
 
   useEffect(() => {
     let interval = null;
