@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 function Comptador({valorInicial}) {
-  const valorI = valorInicial;
-  const [compte, setCompte] = useState(valorI); //**
+ 
+  const [compte, setCompte] = useState(valorInicial); //**
 
   return (
     <div>
