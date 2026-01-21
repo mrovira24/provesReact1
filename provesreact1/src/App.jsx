@@ -8,6 +8,9 @@ import Comptador from "./components/Comptador";
 import ComptadorTemps from "./components/ComptadorTemps";
 import ComptadorVisites from "./components/ComptadorVisites";
 import ComptadorVisites2 from "./components/ComptadorVisites2";
+import LlistaFruits from "./components/LlistaFruits";
+import Llista from "./components/Llista";
+import Llista2 from "./components/Llista2";
 
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
       <ComptadorTemps />
       <ComptadorVisites />
       <ComptadorVisites2 />
+      <LlistaFruits />
+      <Llista />
+      <Llista2 />
     </div>
   )
 }
