@@ -20,7 +20,7 @@ function App() {
     <div>
      
       <h1>Proves components!!</h1>
-      <Salutacio nom="Maria" edat="35" />
+      <Salutacio nom="Maria" edat="35" onClick={() => alert('H')} />
       <Comptador valorInicial={1}/>
       <ComptadorTemps />
       <ComptadorVisites />
@@ -28,6 +28,7 @@ function App() {
       <LlistaFruits />
       <Llista />
       <Llista2 />
+      <button onClick={() => alert('O')}>Fes clic</button>
     </div>
   )
 }
