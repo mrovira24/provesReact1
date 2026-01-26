@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>📝 Gestor de Tasques</h1>
+      <h1>Gestor de Tasques</h1>
       <AddTask onAddTask={addTask} />
       <TaskList
         tasks={tasks}
