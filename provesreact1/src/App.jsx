@@ -9,6 +9,7 @@ import ComptadorTemps from "./components/ComptadorTemps";
 import ComptadorVisites from "./components/ComptadorVisites";
 import ComptadorVisites2 from "./components/ComptadorVisites2";
 import LlistaFruits from "./components/LlistaFruits";
+import LlistaFruits2 from "./components/LlistaFruits2";
 import Llista from "./components/Llista";
 import Llista2 from "./components/Llista2";
 
@@ -26,6 +27,7 @@ function App() {
       <ComptadorVisites />
       <ComptadorVisites2 />
       <LlistaFruits />
+     
       <Llista />
       <Llista2 />
       <button onClick={() => alert('O')}>Fes clic</button>
