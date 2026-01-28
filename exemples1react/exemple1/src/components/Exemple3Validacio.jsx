@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-function ExempleValidacio() {
+function Exemple3Validacio() {
   const [text, setText] = useState("");
   const [error, setError] = useState("");
 
@@ -31,7 +31,7 @@ function ExempleValidacio() {
   );
 }
 
-export default ExempleValidacio;
+export default Exemple3Validacio;
 
 /*
 

@@ -3,10 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import ExempleInput from "./components/ExempleInput";
-import ExempleForm from "./components/ExempleForm";
-import ExempleValidacio from "./components/ExempleValidacio";
-import ExempleLlista from "./components/ExempleLlista";
+import Exemple1Input from "./components/Exemple1Input";
+import Exemple2Form from "./components/Exemple2Form";
+import Exemple3Validacio from "./components/Exemple3Validacio";
+import Exemple4Llista from "./components/Exemple4Llista";
 import AddItem from "./components/AddItem";
 
 function App() {
@@ -20,16 +20,16 @@ function App() {
   return (
       <div>
        <h1>Exemple 1 — Input controlat</h1>
-      <ExempleInput />
+      <Exemple1Input />
 
       <h1>Exemple 2 — Exemple form</h1>
-      <ExempleForm />
+      <Exemple2Form />
 
       <h1>Exemple 3 — Validació simple</h1>
-      <ExempleValidacio />
+      <Exemple3Validacio />
 
       <h1>Exemple 4 — Exemple llista</h1>
-      <ExempleLlista />
+      <Exemple4Llista />
 
       <h1>Exemple 5 — Exemple AddItem</h1>
       <>

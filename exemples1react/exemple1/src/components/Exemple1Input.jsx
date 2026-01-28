@@ -1,10 +1,12 @@
 import { useState } from "react";
 
-function ExempleInput() {
+function Exemple1Input() {
   const [nom, setNom] = useState("");
 
   return (
+
     <div>
+      {/* Comentari Exemple 1 */}
       <input
         type="text"
         placeholder="Escriu el teu nom"
@@ -16,7 +18,7 @@ function ExempleInput() {
   );
 }
 
-export default ExempleInput;
+export default Exemple1Input;
 
 /*
 “Quan l’usuari escrigui alguna cosa a l’input,

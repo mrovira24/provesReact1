@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function ExempleForm() {
+function Exemple2Form() {
   const [text, setText] = useState("");
 
   const handleSubmit = (e) => {
@@ -21,4 +21,4 @@ function ExempleForm() {
   );
 }
 
-export default ExempleForm;
+export default Exemple2Form;

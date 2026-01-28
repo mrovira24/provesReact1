@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function ExempleLlista() {
+function Exemple4Llista() {
   const [items, setItems] = useState([]);
   const [text, setText] = useState("");
 
@@ -33,7 +33,7 @@ function ExempleLlista() {
   );
 }
 
-export default ExempleLlista;
+export default Exemple4Llista;
 
 /*
 1️⃣ ...items → spread operator
