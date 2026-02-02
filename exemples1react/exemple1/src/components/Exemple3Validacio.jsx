@@ -2,31 +2,56 @@ import { useState } from "react";
 
 
 function Exemple3Validacio() {
-  const [text, setText] = useState("");
+  const [nom, setNom] = useState("");
+  const [dni, setDni] = useState("");
+
   const [error, setError] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (text.trim() === "") {
-      setError("El camp no pot estar buit");
+    if (nom.trim() === "") {
+      setError("El camp nom no pot estar buit");
+      return;
+    }
+    if (dni.trim() === "") {
+      setError("El camp dni no pot estar buit");
       return;
     }
 
     setError("");
-    alert(text);
-    setText(""); //posa el input text en blanc
+    alert(nom + dni);
+    setNom(""); //posa el input text en blanc
+    setDni("");
   };
+
+  function renderError() {
+    if (error) {
+      return <p style={{ color: "red" }}>{error}</p>;
+    }
+    return null;
+  }
+
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        value={text}
-        onChange={(e) => setText(e.target.value)}
-      />
+      <label>Nom:<input
+        value={nom}
+        onChange={(e) => setNom(e.target.value)}
+      /></label>
+      <label>Dni:
+      <input 
+        value={dni}
+        onChange={(e) => setDni(e.target.value)}
+      /></label>
+
       <button>Afegir</button>
 
-      {error && <p style={{ color: "red" }}>{error}</p>}
+{/*      {error && <p style={{ color: "red" }}>{error}</p>} */}
+
+       {renderError()}
+
+
     </form>
   );
 }
