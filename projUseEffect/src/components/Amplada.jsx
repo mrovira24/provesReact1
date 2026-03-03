@@ -4,11 +4,14 @@ function Amplada() {
   const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    const onResize = () => {
+    const handleResize = () => {
       setWidth(window.innerWidth);
     };
 
-    window.addEventListener("resize", onResize);
+    window.addEventListener("resize", handleResize);
+
+    return () => {window.removeEventListener("resize", handleResize); };
+
   },[]);
 
   return <p>{width}px</p>;

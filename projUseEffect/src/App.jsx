@@ -7,6 +7,7 @@ import Temps from "./components/Temps.jsx"
 import Amplada from "./components/Amplada.jsx"
 import ExempleVectorDependencies from "./components/ExempleVectorDependencies.jsx"
 import Events from "./components/Events.jsx"
+import EventsControlErrors from "./components/EventsControlErrors.jsx"
 import Events2 from "./components/Events2.jsx"
 
 function App() {
@@ -19,6 +20,10 @@ function App() {
       <ExempleVectorDependencies />
       <h1>Events:</h1>
       <Events />
+
+      <h1>Events Control Errors:</h1>
+      <EventsControlErrors/>
+
       <h1>Events2:</h1>
       <Events2 />
     </div>

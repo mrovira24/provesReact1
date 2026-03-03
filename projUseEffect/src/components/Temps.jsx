@@ -9,7 +9,7 @@ function Temps() {
     }, 1000);
 
     return () => clearInterval(interval); // neteja l’interval
-  }, []);
+  });
 
   return <h2>{hora}</h2>;
 }
